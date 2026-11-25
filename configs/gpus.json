@@ -1,0 +1,10 @@
+{
+  "_note": "bandwidth_gbs = vendor peak memory bandwidth in GB/s (1e9 B/s); mem_gb = vendor memory size. Checked 2026-11-25.",
+  "l4":   {"name": "NVIDIA L4", "bandwidth_gbs": 300, "mem_gb": 24, "src": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/l4/PB-11316-001_v01.pdf (24 GB GDDR6, 300 GB/sec)"},
+  "a10g": {"name": "NVIDIA A10G (A10 datasheet figures; A10G is the AWS g5 part, assumed same memory system)", "bandwidth_gbs": 600, "mem_gb": 24, "src": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a10/pdf/a10-datasheet.pdf (24 GB GDDR6, 600 GB/s)"},
+  "l40s": {"name": "NVIDIA L40S", "bandwidth_gbs": 864, "mem_gb": 48, "src": "https://www.nvidia.com/en-us/data-center/l40s/ (48GB GDDR6, 864GB/s)"},
+  "a100": {"name": "NVIDIA A100 80GB (SXM)", "bandwidth_gbs": 2039, "mem_gb": 80, "src": "https://www.nvidia.com/en-us/data-center/a100/ (80GB HBM2e, 2,039 GB/s; PCIe card 1,935 GB/s)"},
+  "h100": {"name": "NVIDIA H100 SXM", "bandwidth_gbs": 3350, "mem_gb": 80, "src": "https://www.nvidia.com/en-us/data-center/h100/ (3.35TB/s SXM; 80 GB is the SXM capacity, not printed in the scraped page text)"},
+  "rtx4090": {"name": "NVIDIA RTX 4090", "bandwidth_gbs": 1008, "mem_gb": 24, "src": "https://images.nvidia.com/aem-dam/Solutions/geforce/ada/nvidia-ada-gpu-architecture.pdf (1008 GB/sec; 24 GB GDDR6X from https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/)"},
+  "m4max": {"name": "Apple M4 Max (unified memory, up to 128 GB config)", "bandwidth_gbs": 546, "mem_gb": 128, "src": "https://www.apple.com/newsroom/2024/10/apple-introduces-m4-pro-and-m4-max/ (up to 128GB, up to 546GB/s; lower GPU bins have 410)"}
+}

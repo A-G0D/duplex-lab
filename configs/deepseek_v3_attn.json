@@ -1,0 +1,4 @@
+{
+  "_source": "research/deepseek.md:25 (DeepSeek-V3 MLA: d_c=512, d_h^R=64, 128 heads, d_h=128, 61 layers); validation only, not a speech model",
+  "layers": 61, "heads": 128, "head_dim": 128, "mla_latent": 512, "mla_rope": 64
+}

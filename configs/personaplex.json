@@ -1,0 +1,10 @@
+{
+  "_source": "github.com/NVIDIA/personaplex moshi/moshi/models/loaders.py _lm_kwargs (read 2026-11-25); dep_q=16 from loaders.py get_moshi_lm (lm_kwargs[\"dep_q\"] = 16); card=2048 from _quantizer_kwargs bins; frame rate 12.5 Hz from Mimi (research/deepseek.md:7)",
+  "dim": 4096, "layers": 32, "heads": 32, "head_dim": 128,
+  "hidden_scale": 4.125, "context_frames": 2048, "frame_hz": 12.5,
+  "prompt_frames": 512,
+  "text_card": 32000, "n_q": 16, "dep_q": 16, "card": 2048,
+  "depformer_dim": 1024, "depformer_dim_feedforward": 4224,
+  "depformer_layers": 6, "depformer_weights_per_step": true,
+  "weight_bits": 16
+}
